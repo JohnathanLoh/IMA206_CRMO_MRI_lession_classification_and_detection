@@ -7,7 +7,11 @@ Encadrants : Mateus Riva, Inès Mannes (radiologue), Isabelle Bloch
 In this section, we use CNN to extract features and SVM to classifiy the images in three categories: with lesion, without lesion, and uncertain.
 
 ## Detection
-In this section, we use HOG to frame the regions with lesion. We only use the images classified with lesion in the previous section.
+In this section, we propose the use of 2 different techniques. For both techniques, only images that have been identified/classified to have lesions in the previous section were used.
+
+   1. Use of HOG to frame the regions with lesion. 
+
+   2. Use of image thresholding to detect hyperintensities, followed by morphological opening to remove thin/line-like artifacts to create potential lesion region binary masks.
 
 ## Annotation
 In this section, we use filter and morphology to annotate the possible lesions. Combined with the previous section, the lesions can be annotated and the artifacts can be eliminated. 
