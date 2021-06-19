@@ -5,6 +5,8 @@ Encadrants : Mateus Riva, Inès Mannes (radiologue), Isabelle Bloch
 
 ## Instructions for running the code
 
+**For privacy reason, we don't put MRI images here**
+
 ### if you only want to test...
 Open test.ipynb and modify the path (in the 4th cell) to the MRI image that you want to test, then run the whole program.
 
